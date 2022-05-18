@@ -1,0 +1,23 @@
+.topBar {
+    background-color: blue;
+    overflow: hidden;
+}
+
+.topBar a {
+    float: left;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topBar a:hover {
+    background-color: aquamarine;
+    color: grey;
+}
+
+.topBar a.active {
+    background-color: blueviolet;
+    color: brown;
+}
