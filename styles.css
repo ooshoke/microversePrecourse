@@ -1,23 +1,83 @@
-.topBar {
-    background-color: blue;
-    overflow: hidden;
+body{
+    background-color: #f9f9f9;
 }
 
-.topBar a {
-    float: left;
-    color: wheat;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.youtubeHeader{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60pdx;
+}
+
+.youtubeLogoSvg{
+    height: 29px;
+    margin: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.youtubeSearchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtubeHeaderSearchInput{
+    outline: none;
+    padding: 4px;
+    width: 30em;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtubeHeaderSearchInput::-webkit-input-placeholder{
     font-size: 17px;
 }
 
-.topBar a:hover {
-    background-color: aquamarine;
-    color: grey;
+.headerSearchIcon{
+    padding: 8px;
+    border: 1px solid blue;
+    background-color: #f8f8f8;
+    padding-right: 25px;
+    padding-left: 25px;
+    outline: none;
+    cursor: pointer;
 }
 
-.topBar a.active {
-    background-color: blueviolet;
-    color: brown;
+.headerSearchIcon i{
+    color: #606060;
+    font-size: 15px;
+}
+
+.youtubeHeaderIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtubeHeaderIcon{
+    color: #606060;
+    margin: 13px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.avatar{
+    border-radius: 200px;
+}
+
+.youtubeHeaderAvatarIcon{
+    border-radius: 200px;
+    height: 35px;
 }
