@@ -81,3 +81,43 @@ body{
     border-radius: 200px;
     height: 35px;
 }
+
+.container .play-contain{
+    padding-left: 2%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.play-vid{
+    flex-basis: 69%;
+}
+
+.right-sidebar{
+    flex-basis: 30%;
+}
+
+.play-vid iframe{
+    width: 100%;
+}
+
+.side-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.side-list img{
+    width: 100%;
+}
+
+.side-list .small-size{
+    flex-basis: 49%;
+}
+
+.side-list .video-info{
+    flex-basis: 49%;
+}
